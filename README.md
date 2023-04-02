@@ -1,4 +1,4 @@
-# Golang-Store with Postgre db
+# Golang-Store with Postgre DB
 
 
 ***__Progress 1️⃣:__***
