@@ -1,4 +1,4 @@
-# Golang-Store with Postgre DB
+# GoProject
 
 
 ***__Progress 1️⃣:__***
@@ -51,8 +51,11 @@ PostgreSQl DB,  `Table: users`
 
  In the sixth progression, we created validation - firstname, lastname, password, email and hashing password.
  - [x] Validation for Register(Upper,small letters, numbers, min 8 symbols) 
+ - [x] Hashing password
+ 
+ ***__Progress 7️⃣:__*** 
  - [x] Filter prices(max, min)
- - [x] Logout seesin, cookie(without loggin, couldn't open home page even with link)
+ - [x] Logout session, cookie(without loggin, couldn't open home page even with link)
  - [x] User data in home page(shows after login, and his fname, lname)
  - [x] Filter prices(max, min)
  - [x] Fixed issues
@@ -68,11 +71,24 @@ PostgreSQl DB,  `Table: products`
 | price       | integer    |        |     | Yes        |         |
 +-------------+------------+--------+-----+------------+---------+
 ```
+home_page
+
+<img src="https://github.com/galymzhantolepbergen/galymzhantolepbergen/blob/main/jobs/home_page.jpeg?raw=true" width="500px" height="auto" />
+products
+
+<img src="https://github.com/galymzhantolepbergen/galymzhantolepbergen/blob/main/jobs/items.jpeg?raw=true" width="500px" height="auto" />
+search and filer
+
+<img src="https://github.com/galymzhantolepbergen/galymzhantolepbergen/blob/main/jobs/search.jpeg?raw=true" width="500px" height="auto" />
+searching_results
+
+<img src="https://github.com/galymzhantolepbergen/galymzhantolepbergen/blob/main/jobs/searching_results.jpeg?raw=true" width="500px" height="auto" />
 
 
-***__Progress 7️⃣:__*** 
 
-In the seventh progression, we created user profile, and add profile menu,  edit, update profile functions
+***__Progress 8️⃣:__*** 
+
+In the eighth progress, we created user profile, and add profile menu,  edit, update profile functions
  
 |  ---                        |      __User profile__  |       ---               |
 |     ---                     |       ---              |       ---               |   
@@ -93,8 +109,14 @@ In the seventh progression, we created user profile, and add profile menu,  edit
 <img src="https://github.com/galymzhantolepbergen/galymzhantolepbergen/blob/main/jobs/edir_profile.jpeg?raw=true" width="500px" height="auto" />
 <img src="https://github.com/galymzhantolepbergen/galymzhantolepbergen/blob/main/jobs/update_profile.jpeg?raw=true" width="500px" height="auto" />
 
+***__Progress 9:__***
+In the ninth progression, we created product detail page and a rating for products. Users can give a rating for each product, and the average product rating will be displayed on the page.
 
+![image](https://user-images.githubusercontent.com/82767082/232326055-c57b759c-3cee-4ec1-b7a8-4ccc1030270f.png)
 
+***__Progress 10:__***
+In the tenth progression, we created comments, so users can add comments for products
 
-
- 
+***__Midterm 2:__***
+ We made a page to add and improve comments function, filtering by price and product rating. In addition to comments, the user can give ratings to books.
+Report - https://docs.google.com/document/d/1rHcuWQ5e4GEV50PFO9r3s69sQSyI9PJ-mJjl5s7glVE/edit

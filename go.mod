@@ -1,4 +1,4 @@
-module github.com/Aktollkynn/GoProject.git
+module github.com/galymzhantolepbergen/Booking-Store-Golang
 
 go 1.19
 
