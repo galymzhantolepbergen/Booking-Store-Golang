@@ -3,6 +3,7 @@ package controllers
 import (
 	"database/sql"
 	"encoding/gob"
+
 	"errors"
 	"fmt"
 	"html/template"
@@ -22,10 +23,6 @@ type User struct {
 	FirstName string
 	LastName  string
 	Email     string
-}
-
-func init() {
-	gob.Register(User{})
 }
 
 // -----------------Search------------------
