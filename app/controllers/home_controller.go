@@ -17,6 +17,13 @@ import (
 	"golang.org/x/crypto/bcrypt"
 )
 
+type User struct {
+	ID        int
+	FirstName string
+	LastName  string
+	Email     string
+}
+
 func init() {
 	gob.Register(User{})
 }
@@ -144,13 +151,6 @@ func ValidateRegistrationForm(fname, lname, email, password string) error {
 func validateemail(Email string) bool {
 	regex := regexp.MustCompile(`^[^@\s]+@[^@\s]+\.[^@\s]{2,}$`)
 	return regex.MatchString(Email)
-}
-
-type User struct {
-	ID        int
-	FirstName string
-	LastName  string
-	Email     string
 }
 
 // ---------------Login----------------------------------
