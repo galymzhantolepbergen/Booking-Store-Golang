@@ -17,6 +17,10 @@ import (
 	"golang.org/x/crypto/bcrypt"
 )
 
+func init() {
+	gob.Register(User{})
+}
+
 // -----------------Search------------------
 func searchHandler(w http.ResponseWriter, r *http.Request) {
 	minPrice := r.URL.Query().Get("min_price")

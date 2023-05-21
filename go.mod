@@ -9,5 +9,3 @@ require (
 )
 
 require github.com/gorilla/securecookie v1.1.1 // indirect
-
-// require github.com/golang-jwt/jwt v3.2.2+incompatible // indirect
